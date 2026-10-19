@@ -1,0 +1,21 @@
+{
+  "allowedTypes": null,
+  "defaultFilename": null,
+  "dir": null,
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "linkable": false,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "editContent"
+    ]
+  },
+  "rawEntityNames": false,
+  "schemas": [
+    "/.mattrbld/schemas/landing.json"
+  ],
+  "type": "json",
+  "urlTemplate": ""
+}

@@ -1,0 +1,88 @@
+{
+  "fields": [
+    {
+      "type": "image",
+      "default": null,
+      "icon": "image",
+      "key": "hero-image",
+      "label": "hero-image",
+      "options": {
+        "resolutionHint": "",
+        "removable": true,
+        "simple": false
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "max": null,
+        "required": false,
+        "unit": "filesize (MB)"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "tags",
+      "default": null,
+      "icon": "tags",
+      "key": "seo-keywords",
+      "label": "SEO-keywords",
+      "localised": false,
+      "options": {
+        "allowUnsuggested": true,
+        "autocompleteModel": []
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "tags"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "rows",
+      "default": null,
+      "icon": "rows",
+      "key": "steps",
+      "label": "steps",
+      "options": {
+        "compact": true,
+        "allowEditing": true,
+        "itemLabel": "step"
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "max": null,
+        "min": 1,
+        "unit": "rows"
+      },
+      "value": [],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Untitled Tab",
+      "groupAs": null
+    }
+  ]
+}
