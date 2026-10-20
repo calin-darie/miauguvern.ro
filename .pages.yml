@@ -1,0 +1,13 @@
+media: media
+content:
+  - name: landing
+    label: Landing
+    type: file
+    path: landing
+    fields:
+      - name: title
+        type: string
+      - name: hero
+        type: image
+      - name: body
+        type: rich-text
