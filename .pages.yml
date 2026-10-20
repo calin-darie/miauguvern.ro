@@ -1,4 +1,15 @@
 media: media
+components:
+  step: 
+    type: object
+    label: step
+    fields:
+      - name: number
+        type: number
+      - name: title
+        type: string
+      - name: description
+        type: string
 content:
   - name: landing
     label: Landing
@@ -11,3 +22,6 @@ content:
         type: image
       - name: body
         type: rich-text
+      - name: steps
+        component: step
+        list: true
